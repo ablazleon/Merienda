@@ -15,6 +15,13 @@ class SeleccionaMeriendaViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        switch segue.identifier{
+            
+            case "Seleccion Ok"
+            
+            case "Seleccion Cancel"
+            
+        }
         // Do any additional setup after loading the view.
     }
 
