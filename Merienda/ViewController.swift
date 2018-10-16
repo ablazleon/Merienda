@@ -10,11 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    // Tengo mi merienda actual
+    var miMerienda: String = "Chocolate"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
+    override func prepare(for segue: UIStoryBoard)
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
